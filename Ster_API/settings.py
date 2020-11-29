@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'Ster_API.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'ddftrbrpuun63h',
         'HOST': 'ec2-18-235-109-97.compute-1.amazonaws.com',
         'PORT': 5432,
