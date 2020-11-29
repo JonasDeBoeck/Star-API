@@ -87,10 +87,13 @@ WSGI_APPLICATION = 'Ster_API.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'ddftrbrpuun63h',
+        'HOST': 'ec2-18-235-109-97.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'USER': 'ktgngirqztvmaw',
+        'PASSWORD': 'ca36b597c6ddc9566c9db11a6f9ee0249ac41ef71767c9fbd5c96a3a024e82e5'
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
