@@ -8,7 +8,6 @@ SPECTRAL_CLASS = [("O", "O"), ("B", "B"), ("A", "A"),
 
 
 class Star (models.Model):
-    id = models.BigIntegerField(primary_key = True)
     name = models.CharField(max_length=30)
     star_system = models.CharField(max_length=30)
     distance = models.FloatField()
